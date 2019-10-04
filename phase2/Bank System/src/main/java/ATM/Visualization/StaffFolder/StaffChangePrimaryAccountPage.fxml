@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.StaffFolder.StaffChangePrimaryAccountPage">
+    <children>
+        <Label layoutX="97.0" layoutY="67.0" prefHeight="31.0" prefWidth="309.0" text="Your current primary account is " />
+        <Label fx:id="account" layoutX="394.0" layoutY="67.0" prefHeight="31.0" prefWidth="189.0" />
+        <Button layoutX="95.0" layoutY="236.0" mnemonicParsing="false" onAction="#ChangePrimaryAccountButton" prefHeight="45.0" prefWidth="265.0" text="Change Primary Account " />
+        <Button layoutX="95.0" layoutY="294.0" mnemonicParsing="false" onAction="#CancelButton" prefHeight="45.0" prefWidth="265.0" text="Cancel" />
+        <TextField fx:id="accountInput" layoutX="97.0" layoutY="169.0" promptText="New account number " />
+    </children>
+</AnchorPane>

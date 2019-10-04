@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.UserFolder.UserChooseAccountPage">
+    <children>
+        <Text layoutX="180.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your account">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Pane id="account1type" prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <Label layoutX="60.0" layoutY="96.0" prefHeight="45.0" prefWidth="48.0" text="owner" />
+                <Separator layoutX="138.0" layoutY="100.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="6.0" />
+                <Separator layoutX="261.0" layoutY="101.0" orientation="VERTICAL" prefHeight="192.0" prefWidth="6.0" />
+                <Separator layoutX="403.0" layoutY="97.0" orientation="VERTICAL" prefHeight="200.0" />
+                <Text layoutX="60.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="account number" wrappingWidth="81.0" />
+                <Text layoutX="60.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="create date" wrappingWidth="59.21875" />
+                <Text layoutX="60.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="balance" />
+                <Text layoutX="60.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="choose button" wrappingWidth="59.21875" />
+                <Label fx:id="account1type" layoutX="169.0" layoutY="110.0" prefHeight="17.0" prefWidth="81.0" />
+                <Label id="account2type" fx:id="account2type" layoutX="298.0" layoutY="110.0" prefHeight="17.0" prefWidth="75.0" />
+                <Label id="account3type" fx:id="account3type" layoutX="437.0" layoutY="110.0" prefHeight="17.0" prefWidth="75.0" />
+                <Label fx:id="account1number" layoutX="165.0" layoutY="149.0" prefHeight="17.0" prefWidth="68.0" />
+                <Label id="account2number" fx:id="account2number" layoutX="301.0" layoutY="149.0" prefHeight="17.0" prefWidth="75.0" />
+                <Label id="account3number" fx:id="account3number" layoutX="436.0" layoutY="147.0" prefHeight="17.0" prefWidth="75.0" />
+                <Label id="account1date" fx:id="account1date" layoutX="143.0" layoutY="193.0" prefHeight="17.0" prefWidth="119.0" />
+                <Label id="account2date" fx:id="account2date" layoutX="270.0" layoutY="193.0" prefHeight="17.0" prefWidth="119.0" />
+                <Label id="account3date" fx:id="account3date" layoutX="408.0" layoutY="193.0" prefHeight="17.0" prefWidth="119.0" />
+                <Label fx:id="account1balance" layoutX="186.0" layoutY="233.0" />
+                <Label fx:id="account2balance" layoutX="321.0" layoutY="233.0" />
+                <Label fx:id="account3balance" layoutX="467.0" layoutY="233.0" />
+                <Separator layoutX="55.0" layoutY="96.0" prefHeight="3.0" prefWidth="489.0" />
+                <Separator layoutX="55.0" layoutY="139.0" prefHeight="3.0" prefWidth="489.0" />
+                <Separator layoutX="57.0" layoutY="224.0" prefHeight="3.0" prefWidth="489.0" />
+                <Separator layoutX="46.0" layoutY="183.0" prefHeight="3.0" prefWidth="496.0" />
+                <Separator layoutX="49.0" layoutY="258.0" prefHeight="3.0" prefWidth="496.0" />
+                <Separator layoutX="42.0" layoutY="299.0" prefHeight="3.0" prefWidth="513.0" />
+                <Button fx:id="account1button" layoutX="165.0" layoutY="261.0" mnemonicParsing="false" onAction="#account1button" prefHeight="28.0" prefWidth="81.0" text="choose" />
+                <Button fx:id="account2button" layoutX="296.0" layoutY="261.0" mnemonicParsing="false" onAction="#account2button" prefHeight="31.0" prefWidth="75.0" text="choose" />
+                <Button layoutX="434.0" layoutY="259.0" mnemonicParsing="false" onAction="#account3button" prefHeight="31.0" prefWidth="75.0" text="choose" />
+                <Button layoutX="13.0" layoutY="335.0" mnemonicParsing="false" onAction="#lastPage" prefHeight="45.0" prefWidth="101.0" text="last page" />
+                <Button layoutX="458.0" layoutY="337.0" mnemonicParsing="false" onAction="#nextPage" prefHeight="45.0" prefWidth="101.0" text="next page" />
+            <Button layoutX="26.0" layoutY="23.0" mnemonicParsing="false" onAction="#backButton" prefHeight="31.0" prefWidth="75.0" text="Back" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

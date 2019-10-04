@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane focusTraversable="true" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.ManagerFolder.ManagerUndoTransactionAccountPage">
+   <children>
+      <Text layoutX="200.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transactions">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button id="backAS" layoutX="395.0" layoutY="34.0" mnemonicParsing="false" onAction="#backASButton" prefHeight="45.0" prefWidth="177.0" text="Back to Accounts Selection" />
+      <Label id="transactionField" fx:id = "transactionField" layoutX="68.0" layoutY="112.0" prefHeight="177.0" prefWidth="466.0" />
+      <Button id="lastT" layoutX="55.0" layoutY="334.0" mnemonicParsing="false" onAction="#lastTButton" prefHeight="45.0" prefWidth="121.0" text="Last Transaction" />
+      <Button id="nextT" layoutX="445.0" layoutY="334.0" mnemonicParsing="false" onAction="#nextTButton" prefHeight="45.0" prefWidth="121.0" text="Next Transaction" />
+      <Button id="undo" layoutX="253.0" layoutY="334.0" mnemonicParsing="false" onAction="#undoButton" prefHeight="45.0" prefWidth="101.0" text="Undo" />
+   </children>
+</AnchorPane>

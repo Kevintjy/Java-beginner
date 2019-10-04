@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.UserFolder.UserAccountsFolder.UserWithdrawPage">
+    <children>
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#UserWithdrawBack" text="back" />
+        <Label layoutX="260.0" layoutY="88.0" text="Withdraw">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="173.0" layoutY="170.0" prefHeight="17.0" prefWidth="48.0" text="Amount" />
+        <TextField fx:id="UserWithdrawInput" layoutX="268.0" layoutY="165.0" />
+        <Button layoutX="527.0" layoutY="359.0" mnemonicParsing="false" onAction="#UserWithdrawButton" text="Confirm" />
+        <Label layoutX="175.0" layoutY="243.0" text="ATM ID" />
+        <TextField fx:id="UserWithdrawATMid" layoutX="268.0" layoutY="238.0" />
+    </children>
+</AnchorPane>

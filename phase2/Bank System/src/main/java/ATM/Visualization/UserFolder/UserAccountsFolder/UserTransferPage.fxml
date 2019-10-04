@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.UserFolder.UserAccountsFolder.UserTransferPage">
+   <children>
+      <Pane layoutX="1.0" layoutY="1.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#UserTransferBack" text="back" />
+            <Label layoutX="174.0" layoutY="188.0" prefHeight="17.0" prefWidth="56.0" text="Amount">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField id="UserTransferAmountInput" fx:id="UserTransferAmountInput" layoutX="281.0" layoutY="184.0" />
+            <Label layoutX="118.0" layoutY="274.0" text="Account Number">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="UserTransferAccountInput" layoutX="281.0" layoutY="269.0" />
+            <Button layoutX="481.0" layoutY="324.0" mnemonicParsing="false" onAction="#UserTransfer" text="transfer" />
+            <Label layoutX="233.0" layoutY="91.0" text="Transfer Money">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

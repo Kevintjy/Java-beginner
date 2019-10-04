@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.StaffFolder.StaffAccountsFolder.StaffOtherAccountsPage">
+    <children>
+        <Pane layoutX="3.0" layoutY="1.0" prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#StaffOtherAccountBack" text="back" />
+                <Label fx:id="StaffAccountType" layoutX="14.0" layoutY="73.0" prefHeight="17.0" prefWidth="111.0" />
+                <Label fx:id="AccountNum" layoutX="191.0" layoutY="73.0" prefHeight="17.0" prefWidth="111.0" />
+                <Label fx:id="AccountBalance" layoutX="382.0" layoutY="73.0" prefHeight="17.0" prefWidth="123.0" />
+                <Label layoutX="14.0" layoutY="118.0" prefHeight="17.0" prefWidth="117.0" text="Transactions" underline="true">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Separator layoutX="20.0" layoutY="199.0" prefHeight="0.0" prefWidth="560.0" />
+                <Separator layoutX="20.0" layoutY="255.0" prefHeight="3.0" prefWidth="560.0" />
+                <Separator layoutX="20.0" layoutY="309.0" prefHeight="3.0" prefWidth="560.0" />
+                <Separator layoutX="297.0" layoutY="158.0" orientation="VERTICAL" prefHeight="200.0" />
+                <Label layoutX="107.0" layoutY="170.0" text="Amount" />
+                <Label layoutX="410.0" layoutY="170.0" text="Recipient" />
+                <Label fx:id="AccountAmount1" layoutX="85.0" layoutY="220.0" prefHeight="17.0" prefWidth="92.0" />
+                <Label fx:id="AccountAmount2" layoutX="85.0" layoutY="277.0" prefHeight="17.0" prefWidth="92.0" />
+                <Label fx:id="AccountAmount3" layoutX="85.0" layoutY="330.0" prefHeight="17.0" prefWidth="92.0" />
+                <Label fx:id="AccountRe1" layoutX="398.0" layoutY="220.0" prefHeight="17.0" prefWidth="92.0" />
+                <Label fx:id="AccountRe2" layoutX="398.0" layoutY="269.0" prefHeight="17.0" prefWidth="92.0" />
+                <Label fx:id="AccountRe3" layoutX="398.0" layoutY="339.0" prefHeight="17.0" prefWidth="92.0" />
+                <Button layoutX="278.0" layoutY="14.0" mnemonicParsing="false" onAction="#StaffOtherAccountTransfer" text="Transfer" />
+                <Button layoutX="357.0" layoutY="14.0" mnemonicParsing="false" onAction="#StaffOtherAccountPayBill" text="Pay a Bill" />
+                <Button layoutX="439.0" layoutY="14.0" mnemonicParsing="false" onAction="#StaffOtherAccountDeposit" text="Deposit" />
+                <Button layoutX="513.0" layoutY="14.0" mnemonicParsing="false" onAction="#StaffOtherAccountWithdraw" text="Withdraw" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

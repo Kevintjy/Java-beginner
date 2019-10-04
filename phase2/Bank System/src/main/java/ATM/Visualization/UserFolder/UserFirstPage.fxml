@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.UserFolder.UserFirstPage">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="45.0" layoutY="112.0" mnemonicParsing="false" onAction="#chooseAccountButton" prefHeight="63.0" prefWidth="181.0" text="Choose account" />
+            <Button layoutX="45.0" layoutY="201.0" mnemonicParsing="false" onAction="#changePasswordButton" prefHeight="63.0" prefWidth="181.0" text="Change Password" />
+            <Button layoutX="264.0" layoutY="112.0" mnemonicParsing="false" onAction="#totalBalanceButton" prefHeight="63.0" prefWidth="181.0" text="Total Balance" />
+            <Button layoutX="264.0" layoutY="201.0" mnemonicParsing="false" onAction="#changePrimaryAccountButton" prefHeight="63.0" prefWidth="181.0" text="Change Primary Account" />
+            <Button layoutX="493.0" layoutY="14.0" mnemonicParsing="false" onAction="#logOutButton" prefHeight="45.0" prefWidth="85.0" text="Log out" />
+            <Separator layoutX="11.0" layoutY="322.0" prefHeight="56.0" prefWidth="579.0" />
+            <Label layoutX="45.0" layoutY="31.0" prefHeight="56.0" prefWidth="129.0" text="Hello, ">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button layoutX="45.0" layoutY="287.0" mnemonicParsing="false" onAction="#sendRequestButton" prefHeight="63.0" prefWidth="181.0" text="Send Request" />
+            <Label fx:id="user" layoutX="111.0" layoutY="44.0" prefHeight="31.0" prefWidth="129.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

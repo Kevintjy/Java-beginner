@@ -1,0 +1,6 @@
+2.25 tutorial meeting 
+2.26 evening meeting (creating uml and distribute work)
+3.4 tutorial meeting (merge code)
+3.5 meeting (test code)
+3.7 refine code
+3.8 due

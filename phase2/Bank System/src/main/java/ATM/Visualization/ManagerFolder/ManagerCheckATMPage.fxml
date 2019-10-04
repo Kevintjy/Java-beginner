@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane focusTraversable="true" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.ManagerFolder.ManagerCheckATMPage">
+   <children>
+      <Text layoutX="200.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ATM Alerts">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button id="backM" layoutX="405.0" layoutY="34.0" mnemonicParsing="false" onAction="#backMButton" prefHeight="45.0" prefWidth="140.0" text="Back to Menu" />
+      <Label id="alertField" fx:id = "alertField" layoutX="68.0" layoutY="112.0" prefHeight="177.0" prefWidth="466.0" />
+      <Button id="lastA" layoutX="55.0" layoutY="334.0" mnemonicParsing="false" onAction="#lastAButton" prefHeight="45.0" prefWidth="121.0" text="Last Alert" />
+      <Button id="nextA" layoutX="445.0" layoutY="334.0" mnemonicParsing="false" onAction="#nextAButton" prefHeight="45.0" prefWidth="121.0" text="Next Alert" />
+      <Button id="addM" layoutX="253.0" layoutY="334.0" mnemonicParsing="false" onAction="#addMButton" prefHeight="45.0" prefWidth="101.0" text="Add Money" />
+   </children>
+</AnchorPane>

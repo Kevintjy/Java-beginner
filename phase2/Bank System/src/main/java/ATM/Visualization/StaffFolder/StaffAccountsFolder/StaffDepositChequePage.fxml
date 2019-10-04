@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.StaffFolder.StaffAccountsFolder.StaffDepositChequePage">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="192.0" layoutY="65.0" prefHeight="29.0" prefWidth="187.0" text="Deposit Cheque">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Text layoutX="104.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Number ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="114.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cheque Amount">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="chequeInput" layoutX="286.0" layoutY="225.0" prefHeight="27.0" prefWidth="223.0" promptText="Please enter the Cheque Amount" />
+            <Button layoutX="25.0" layoutY="20.0" mnemonicParsing="false" onAction="#backButton" prefHeight="35.0" prefWidth="70.0" text="Back" />
+            <Button layoutX="265.0" layoutY="297.0" mnemonicParsing="false" onAction="#enterButton" prefHeight="35.0" prefWidth="70.0" text="Enter" />
+            <Label fx:id="accountNumber" layoutX="286.0" layoutY="146.0" prefHeight="17.0" prefWidth="181.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

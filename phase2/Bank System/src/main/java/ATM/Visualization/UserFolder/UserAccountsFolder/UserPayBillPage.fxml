@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.UserFolder.UserAccountsFolder.UserPayBillPage">
+    <children>
+        <GridPane layoutY="3.0" prefHeight="400.0" prefWidth="600.0">
+            <columnConstraints>
+
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="307.0" minWidth="10.0" prefWidth="177.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="504.0" minWidth="10.0" prefWidth="423.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="118.0" minHeight="10.0" prefHeight="96.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="95.0" minHeight="0.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="95.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="153.0" minHeight="0.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="323.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="323.0" minHeight="10.0" prefHeight="96.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label text="Account Number" GridPane.rowIndex="1" />
+                <Label text="Amount" GridPane.rowIndex="3" />
+                <Label text="Recipient " GridPane.rowIndex="4" />
+                <Label prefHeight="31.0" prefWidth="219.0" text="      Pay Bill Page" textAlignment="CENTER" GridPane.columnIndex="1">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="amountInput" promptText="Please enter the amount" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <GridPane.margin>
+                        <Insets right="10.0" />
+                    </GridPane.margin>
+                </TextField>
+                <Button mnemonicParsing="false" onAction="#enterButton" prefHeight="27.0" prefWidth="116.0" text="Enter" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <Button mnemonicParsing="false" onAction="#cancelButton" prefHeight="27.0" prefWidth="275.0" text="Cancel, Go to Account selection page" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                    <GridPane.margin>
+                        <Insets left="130.0" />
+                    </GridPane.margin>
+                </Button>
+                <Label text="Account Type" GridPane.rowIndex="2" />
+                <Text fx:id="accountNumber" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="130.2060546875" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Text fx:id="accountType" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="130.2060546875" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <TextField fx:id="recipientInput" promptText="Please enter the name of the Recipient." GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            </children>
+        </GridPane>
+    </children>
+</AnchorPane>

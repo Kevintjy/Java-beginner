@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.ManagerFolder.ManagerCreateUserPage">
+   <children>
+      <GridPane layoutY="3.0" prefHeight="400.0" prefWidth="600.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="307.0" minWidth="10.0" prefWidth="177.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="504.0" minWidth="10.0" prefWidth="423.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="118.0" minHeight="10.0" prefHeight="96.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="95.0" minHeight="0.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="153.0" minHeight="0.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="323.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="323.0" minHeight="10.0" prefHeight="96.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="New user Name" GridPane.rowIndex="1" />
+            <Label text="New user ID" GridPane.rowIndex="2" />
+            <Label text="Authorization (Password)" GridPane.rowIndex="3" />
+            <Label prefHeight="31.0" prefWidth="232.0" text="  Create New User" GridPane.columnIndex="1">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <TextField id="nameInput" fx:id="nameInput" promptText="Please enter Name" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField id="idInput" fx:id="idInput" promptText="Please enter ID" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <PasswordField id="pwInput" fx:id="pwInput" promptText="Please enter your own password" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets right="10.0" />
+               </GridPane.margin>
+            </PasswordField>
+            <Button id="enter" mnemonicParsing="false" onAction="#enterButton" prefHeight="27.0" prefWidth="192.0" text="Enter" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button id="back" mnemonicParsing="false" onAction="#backButton" text="Back to Menu" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="210.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

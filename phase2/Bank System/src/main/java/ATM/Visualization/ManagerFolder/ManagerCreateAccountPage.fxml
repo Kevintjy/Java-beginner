@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.ManagerFolder.ManagerCreateAccountPage">
+   <children>
+      <Label layoutX="180.0" layoutY="47.0" text="Create New Account">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="118.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField id="acnumInput" fx:id="acnumInput" layoutX="312.0" layoutY="119.0" prefHeight="23.0" prefWidth="174.0" promptText="give the new account an id" />
+      <Button id="cancelButton" layoutX="350.0" layoutY="244.0" mnemonicParsing="false" onAction="#cancelButton" text="Cancel" />
+      <Button id="createButton" layoutX="207.0" layoutY="244.0" mnemonicParsing="false" onAction="#createButton" text="Create" />
+      <PasswordField id="pwInput" fx:id="pwInput" layoutX="312.0" layoutY="178.0" prefHeight="23.0" prefWidth="174.0" promptText="input your own password" />
+      <Text layoutX="104.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Number:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="130.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Authorization : " wrappingWidth="188.21875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label layoutX="80.0" layoutY="228.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

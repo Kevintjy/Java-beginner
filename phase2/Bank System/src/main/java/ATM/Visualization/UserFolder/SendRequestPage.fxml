@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.UserFolder.SendRequestPage">
+   <children>
+      <Button layoutX="87.0" layoutY="86.0" mnemonicParsing="false" onAction="#ChequingButton" prefHeight="45.0" prefWidth="213.0" text="Chequing" />
+      <Button layoutX="87.0" layoutY="200.0" mnemonicParsing="false" onAction="#CreditButton" prefHeight="45.0" prefWidth="213.0" text="Credit" />
+      <Button layoutX="87.0" layoutY="143.0" mnemonicParsing="false" onAction="#SavingButton" prefHeight="45.0" prefWidth="213.0" text="Saving" />
+      <Button layoutX="87.0" layoutY="260.0" mnemonicParsing="false" onAction="#LineCreditButton" prefHeight="45.0" prefWidth="213.0" text="Line Credit" />
+      <Button layoutX="87.0" layoutY="316.0" mnemonicParsing="false" onAction="#USButton" prefHeight="45.0" prefWidth="213.0" text="US dollar" />
+      <Label layoutX="87.0" layoutY="29.0" prefHeight="57.0" prefWidth="430.0" text="Choose the account you want  to open" />
+      <Button layoutX="390.0" layoutY="316.0" mnemonicParsing="false" onAction="#CancelButton" prefHeight="45.0" prefWidth="145.0" text="cancel" />
+   </children>
+</AnchorPane>

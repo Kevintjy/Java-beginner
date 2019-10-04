@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.StaffFolder.StaffAccountsFolder.StaffTransferPage">
+    <children>
+        <Pane layoutY="1.0" prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#StaffTransferBack" text="back" />
+                <Label layoutX="159.0" layoutY="191.0" prefHeight="17.0" prefWidth="56.0" text="Amount">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="StaffTransferAmountInput" layoutX="266.0" layoutY="187.0" />
+                <Label layoutX="103.0" layoutY="255.0" text="Account Number">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="StaffTransferAccountInput" layoutX="266.0" layoutY="250.0" />
+                <Button layoutX="474.0" layoutY="327.0" mnemonicParsing="false" onAction="#StaffTransfer" text="transfer" />
+            <Label layoutX="233.0" layoutY="94.0" text="Transfer Money">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

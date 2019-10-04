@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.UserLoginPage">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" />
+      <Pane prefHeight="400.0" prefWidth="601.0">
+         <children>
+            <Label layoutX="180.0" layoutY="47.0" text="Welcome to BIT Bank">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="139.0" layoutY="118.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="idInput" layoutX="249.0" layoutY="119.0" promptText="input your id" />
+            <Button layoutX="333.0" layoutY="241.0" mnemonicParsing="false" onAction="#registrationButton" text="registration" />
+            <Button layoutX="190.0" layoutY="241.0" mnemonicParsing="false" onAction="#loginButton" text="Log in" />
+            <PasswordField fx:id="passwordInput" layoutX="249.0" layoutY="178.0" promptText="input your password" />
+            <Text layoutX="139.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User id :  ">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="108.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password : " wrappingWidth="136.21875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Label layoutX="80.0" layoutY="228.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

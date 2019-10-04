@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.ATM.Visualization.UserLoginPage">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" />
+      <Pane prefHeight="400.0" prefWidth="601.0">
+         <children>
+            <Label layoutX="180.0" layoutY="47.0" text="Welcome to BIT Bank">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="139.0" layoutY="118.0" text="User id :     ">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="111.0" layoutY="177.0" text="Password :  ">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField layoutX="249.0" layoutY="119.0" onAction="#idreader" promptText="input your id" />
+            <TextField layoutX="249.0" layoutY="178.0" onAction="#passwordReader" promptText="input your password" />
+            <Button layoutX="333.0" layoutY="241.0" mnemonicParsing="false" onAction="#registButton" text="regist" />
+            <Button layoutX="190.0" layoutY="241.0" mnemonicParsing="false" onAction="#loginButton" text="Log in" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
